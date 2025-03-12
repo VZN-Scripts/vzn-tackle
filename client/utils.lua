@@ -41,6 +41,6 @@ function CanUseTackle()
     if IsPedJumping(ped) then return false end
 
 
-    if ESX.PlayerData.job.name ~= 'police' then return false end
+    -- checking job or something like that
     return true
 end

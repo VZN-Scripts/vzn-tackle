@@ -7,7 +7,6 @@ version '1.0.0'
 author 'VZN Scripts'
 
 shared_scripts {
-    '@es_extended/imports.lua',
     '@ox_lib/init.lua',
     'config.lua'
 }
@@ -18,6 +17,7 @@ client_scripts {
 }
 
 server_scripts {
+    'version_check.lua',
     'server/main.lua',
     'server/utils.lua'
 }
