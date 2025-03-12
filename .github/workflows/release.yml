@@ -48,7 +48,7 @@ jobs:
             - name: Bundle files
               run: |
                   mkdir -p ./temp/vzn-tackle
-                  cp ./{version_check.lua,README.md,fxmanifest.lua,config.lua} ./temp/vzn-tackle
+                  cp ./{version_check.lua,README.md,LICENSE,fxmanifest.lua,config.lua} ./temp/vzn-tackle
                   cp -r ./{client,server} ./temp/vzn-tackle
                   cd ./temp && zip -r ../vzn-tackle.zip ./vzn-tackle
 
